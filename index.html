@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Navigation Pane with Bright Colored Buttons</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    .nav {
+      background-color: #f1f1f1;
+      width: 200px;
+      padding: 20px;
+    }
+
+    .nav a {
+      display: block;
+      margin-bottom: 10px;
+      padding: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    .nav a:hover {
+      font-size: 18px;
+    }
+
+    .nav .red-btn {
+      background-color: #ff0000;
+      color: #fff;
+    }
+
+    .nav .blue-btn {
+      background-color: #0000ff;
+      color: #fff;
+    }
+
+    .nav .green-btn {
+      background-color: #00ff00;
+      color: #000;
+    }
+
+    .nav .yellow-btn {
+      background-color: #ffff00;
+      color: #000;
+    }
+
+    .content {
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <a href="#" class="red-btn">Home</a>
+      <a href="#" class="blue-btn">About</a>
+      <a href="#" class="green-btn">Services</a>
+      <a href="#" class="yellow-btn">Contact</a>
+    </div>
+    <div class="content">
+      <h1>Welcome to My Website</h1>
+      <p>This is the main content area of the webpage.</p>
+    </div>
+  </div>
+</body>
+</html>
